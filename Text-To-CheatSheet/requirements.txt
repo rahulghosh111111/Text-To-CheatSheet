@@ -2,5 +2,5 @@ streamlit
 google-generativeai
 pypdf
 markdown
-xhtml2pdf==0.2.11
-reportlab==3.6.13
+xhtml2pdf
+reportlab
