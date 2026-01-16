@@ -74,7 +74,7 @@ def generate_cheatsheet(text, style_preference, key):
     try:
         genai.configure(api_key=key)
         # UPDATED MODEL NAME BASED ON YOUR LIST
-        model = genai.GenerativeModel('models/gemini-2.5-flash') 
+        model = genai.GenerativeModel('gemini-2.5-flash-preview-09-2025') 
         
         prompt = f"""
         You are an expert technical writer. Convert these notes into a concise cheatsheet.
