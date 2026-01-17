@@ -150,13 +150,6 @@ Happy studying 📚🚀
 
 ---
 
-### ✅ You now have:
-- One unified README
-- Clean Markdown
-- GitHub-ready documentation
-- Secure Gemini setup
-- Final-year project quality
-
 If you want next:
 - `requirements.txt`
 - `app.py` (Streamlit Gemini app)
