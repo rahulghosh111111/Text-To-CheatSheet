@@ -37,7 +37,7 @@ The **Notes-to-Cheatsheet Generator** is a streamlined web application powered b
 git clone [https://github.com/yourusername/notes-to-cheatsheet.git](https://github.com/yourusername/notes-to-cheatsheet.git)
 cd notes-to-cheatsheet
 ```
-2️⃣ Set Up a Virtual Environment (Recommended)
+# 2️⃣ Set Up a Virtual Environment (Recommended)
 🪟 Windows (PowerShell)
 python -m venv venv
 .\venv\Scripts\activate
@@ -46,18 +46,18 @@ python -m venv venv
 python3 -m venv venv
 source venv/bin/activate
 
-3️⃣ Install Dependencies
+# 3️⃣ Install Dependencies
 Using requirements.txt (Recommended)
 pip install -r requirements.txt
 
 If requirements.txt is not created yet
 pip install streamlit google-generativeai pypdf markdown xhtml2pdf
 
-🔑 Gemini API Configuration
+# 🔑 Gemini API Configuration
 
 You must obtain a Google Gemini API key.
 
-👉 Get your API key from:
+# 👉 Get your API key from:
 https://aistudio.google.com/app/apikey
 
 🔐 Option 1: Secure Method (Recommended)
@@ -76,7 +76,7 @@ GOOGLE_API_KEY = "AIzaSyD-Your-Actual-Key-Here"
 
 ✅ This file should be gitignored.
 
-✍️ Option 2: Manual API Key Entry
+# ✍️ Option 2: Manual API Key Entry
 
 If no secrets.toml file is found:
 
@@ -86,7 +86,7 @@ Paste your Gemini API key each time you run the app
 
 ⚠️ Less secure, but useful for quick testing.
 
-▶️ Usage
+# ▶️ Usage
 Launch the App
 streamlit run app.py
 
@@ -106,7 +106,7 @@ Generate a Cheatsheet
 
 📥 Download as PDF or Markdown
 
-📂 Project Structure
+# 📂 Project Structure
 notes-to-cheatsheet/
 ├── .streamlit/
 │   └── secrets.toml        # API credentials (gitignored)
@@ -115,7 +115,7 @@ notes-to-cheatsheet/
 ├── README.md               # Project documentation
 └── .gitignore              # Files excluded from Git
 
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome!
 
@@ -137,23 +137,4 @@ Open a Pull Request
 This project is intended for educational and personal use.
 You are free to modify and extend it.
 
-⭐ Acknowledgements
-
-Google Gemini AI
-
-Streamlit Community
-
-Open-source contributors
-
-Happy studying 📚🚀
-
-
 ---
-
-If you want next:
-- `requirements.txt`
-- `app.py` (Streamlit Gemini app)
-- Project abstract
-- Viva questions & answers
-
-Just tell me 👌
